@@ -61,6 +61,15 @@ a:hover{
     width: 100%;
 }
 /* conten1 (뉴스룸) */
+#newsroom{
+    transform: translateY(50%);
+    opacity: 0; 
+    transition: all 0.7s ease-in-out;
+}
+#newsroom.on{
+    transform: translateY(0);
+    opacity: 1;
+}
 #container>.content1{
     position: relative;
     width: 100%;
@@ -165,6 +174,16 @@ a:hover{
 }
 
 /* 뉴스레터 */
+#newsletter{
+    transform: translateY(50%);
+    opacity: 0; 
+    transition: all 0.7s ease-in-out;
+}
+#newsletter.on{
+    transform: translateY(0);
+    opacity: 1;
+}
+
 #container>.content1>.content1_content>.newsletter{
     position: relative; 
     top: 70px;
@@ -214,6 +233,15 @@ a:hover{
 }
 
 /* content2 */
+#content2{
+    transform: translateY(50%);
+    opacity: 0; 
+    transition: all 0.7s ease-in-out;
+}
+#content2.on{
+    transform: translateY(0);
+    opacity: 1;
+}
 #container>.content2{
     position: relative;
     width: 100%;
@@ -271,6 +299,27 @@ a:hover{
 }
 
 /* content3 */
+#list1 {
+    opacity: 0; 
+    transition: all 0.8s ease-in-out;
+}
+#list2 {
+    opacity: 0; 
+    transition: all 0.8s ease-in-out;
+}
+#list3{
+    opacity: 0; 
+    transition: all 0.8s ease-in-out;
+}
+#list1.on{
+    opacity: 1;
+}
+#list2.on{
+    opacity: 1;
+} 
+#list3.on{
+    opacity: 1;
+}
 #container>.content3>.content3_content{
     position: relative;
     width: 1210px;

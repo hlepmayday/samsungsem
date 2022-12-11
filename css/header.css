@@ -1,5 +1,15 @@
 /* header.css */
-
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body{
+    font-size: 14px; font-family: 'Noto Sans','Noto Sans KR',Helvetica,sans-serif;
+    color: #333;
+}
+a{text-decoration: none; color: #333;}
+a:hover{
+    text-decoration: none; color: #333;
+}
 /* header */
 .header_wrap{
     position: fixed;
